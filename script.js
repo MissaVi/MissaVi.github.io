@@ -41,21 +41,21 @@ fruit.onclick = function () {
     vegetable.style.color = "black";
 
     //IMAGES ID - FRUIT SRC 
-    let pineapple = document.getElementById("pineapple").src = "pineapple.jpg";
-    let orange = document.getElementById("orange").src = "orange.jpg";
-    let watermelon = document.getElementById("watermelon").src = "watermelon.jpg";
-    let banana = document.getElementById("banana").src = "banana.jpg";
-    let grape = document.getElementById("grape").src = "grape.jpg";
-    let cherry = document.getElementById("cherry").src = "cherry.jpg";
-    let pomegranate = document.getElementById("pomegranate").src = "pomegranate.jpg";
-    let grapefruit = document.getElementById("grapefruit").src = "grapefruit.jpg";
-    let pear = document.getElementById("pear").src = "pear.jpg";
-    let melon = document.getElementById("melon").src = "melon.jpg";
-    let kiwi = document.getElementById("kiwi").src = "kiwi.jpg";
-    let cocoon = document.getElementById("cocoon").src = "cocoon.jpg";
-    let coconut = document.getElementById("coconut").src = "coconut.jpg";
-    let lime = document.getElementById("lime").src = "lime.jpg";
-    let lemon = document.getElementById("lemon").src = "lemon.jpg";
+    let pineapple = document.getElementById("pineapple").src = "Images/pineapple.jpg";
+    let orange = document.getElementById("orange").src = "Images/orange.jpg";
+    let watermelon = document.getElementById("watermelon").src = "Images/watermelon.jpg";
+    let banana = document.getElementById("banana").src = "Images/banana.jpg";
+    let grape = document.getElementById("grape").src = "Images/grape.jpg";
+    let cherry = document.getElementById("cherry").src = "Images/cherry.jpg";
+    let pomegranate = document.getElementById("pomegranate").src = "Images/pomegranate.jpg";
+    let grapefruit = document.getElementById("grapefruit").src = "Images/grapefruit.jpg";
+    let pear = document.getElementById("pear").src = "Images/pear.jpg";
+    let melon = document.getElementById("melon").src = "Images/melon.jpg";
+    let kiwi = document.getElementById("kiwi").src = "Images/kiwi.jpg";
+    let cocoon = document.getElementById("cocoon").src = "Images/cocoon.jpg";
+    let coconut = document.getElementById("coconut").src = "Images/coconut.jpg";
+    let lime = document.getElementById("lime").src = "Images/lime.jpg";
+    let lemon = document.getElementById("lemon").src = "Images/lemon.jpg";
 
     //TITLES IMAGE ID - FRUIT
      Tpineapple.textContent = "Ананас";
@@ -89,21 +89,21 @@ vegetable.onclick = function () {
     fruit.style.color = "black";
 
     //IMAGES ID - VEGETABLE SRC 
-    pineapple = document.getElementById("pineapple").src = "peas.jpg";
-    orange = document.getElementById("orange").src = "zucchini.jpg";
-    watermelon = document.getElementById("watermelon").src = "cabbage.jpg";
-    banana = document.getElementById("banana").src = "potato.jpg";
-    grape = document.getElementById("grape").src = "corn.jpg";
-    cherry = document.getElementById("cherry").src = "lettuce.jpg";
-    pomegranate = document.getElementById("pomegranate").src = "onion.jpg";
-    grapefruit = document.getElementById("grapefruit").src = "carrot.jpg";
-    pear = document.getElementById("pear").src = "cucumber.jpg";
-    melon = document.getElementById("melon").src = "radish.jpg";
-    kiwi = document.getElementById("kiwi").src = "turnip.jpg";
-    cocoon = document.getElementById("cocoon").src = "beet.jpg";
-    coconut = document.getElementById("coconut").src = "celery.jpg";
-    lime = document.getElementById("lime").src = "tomato.jpg";
-    lemon = document.getElementById("lemon").src = "pumpkin.jpg";
+    pineapple = document.getElementById("pineapple").src = "Images/peas.jpg";
+    orange = document.getElementById("orange").src = "Images/zucchini.jpg";
+    watermelon = document.getElementById("watermelon").src = "Images/cabbage.jpg";
+    banana = document.getElementById("banana").src = "Images/potato.jpg";
+    grape = document.getElementById("grape").src = "Images/corn.jpg";
+    cherry = document.getElementById("cherry").src = "Images/lettuce.jpg";
+    pomegranate = document.getElementById("pomegranate").src = "Images/onion.jpg";
+    grapefruit = document.getElementById("grapefruit").src = "Images/carrot.jpg";
+    pear = document.getElementById("pear").src = "Images/cucumber.jpg";
+    melon = document.getElementById("melon").src = "Images/radish.jpg";
+    kiwi = document.getElementById("kiwi").src = "Images/turnip.jpg";
+    cocoon = document.getElementById("cocoon").src = "Images/beet.jpg";
+    coconut = document.getElementById("coconut").src = "Images/celery.jpg";
+    lime = document.getElementById("lime").src = "Images/tomato.jpg";
+    lemon = document.getElementById("lemon").src = "Images/pumpkin.jpg";
 
     //TITLES IMAGE ID - VEGETABLE
     Tpineapple.textContent = "Горох";
