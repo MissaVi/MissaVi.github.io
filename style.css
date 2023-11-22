@@ -32,8 +32,8 @@
 .HeaderMenuUl{
     flex-grow: 3;
 }
-.Products{
-    background: url(banner.jpg);
+.Products {
+    background: url(Images/banner.jpg);
     width: 100%;
     height: 500px;
 }
