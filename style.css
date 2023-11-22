@@ -1,0 +1,220 @@
+*{
+    padding:0;
+    margin:0;
+}
+.TopMenuNavigation {
+    background-color: rgb(255, 235, 116);
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+.logotype, img.logo{
+    width:150px;
+    height:150px;
+}
+.TopMenuNavigationUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.TopMenuNavigationLi {
+    list-style: none;
+
+}
+.TopMenuNavigationLink {
+    text-decoration: none;
+    color: black;
+    font-family: 'Handelson Six_CYR';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+.HeaderMenuUl{
+    flex-grow: 3;
+}
+.Products{
+    background: url(banner.jpg);
+    width: 100%;
+    height: 500px;
+}
+.Products-text{
+    width: auto;
+    position: absolute;
+    left: 10em;
+    top: 15em;
+}
+.Traits {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.main-title {
+    font-family: 'Handelson Six_CYR';
+    font-size:38px;
+}
+.main-title1 {
+    font-family: 'Handelson Six_CYR';
+    font-size: 80px;
+    margin-bottom:25px;
+}
+.main-title2 {
+    font-family: 'Handelson Six_CYR';
+    font-size: 24px;
+}
+.button-link {
+    width: 160px;
+    background-color: rgba(0,0,0, 0.80);
+    border-radius: 20px;
+    padding: 20px 80px;
+    cursor: pointer;
+    text-align: center;
+    width: 250px;
+    box-shadow: rgba(0,0,0, 0.50) 0px 4px 2px 0px;
+
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 235, 116);
+}
+    .button-link:hover {
+        box-shadow: rgba(0,0,0, 0.50) 0px 4px 2px 2px;
+        color:rgb(255, 238, 171);
+    }
+.left-aside {
+    float: left;
+    width: 30%;
+}
+.center-content, .center-content-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.center-content{
+    width:40%;
+}
+.right-aside-container, .left-aside-container, .right-aside, .left-aside, .container-for-move {
+    height: 528px;
+}
+.right-aside {
+    float: right;
+    width: 30%;
+}
+.container-for-move {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.icon, img.socIco {
+    width: 60px;
+    height: 60px;
+    margin:2px;
+}
+.main{
+    height: auto;
+}
+.main-information-image, img.poster-fruits {
+    width: 550px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trait-left{
+    text-align: right;
+    width:210px;
+}
+.trait-right {
+    text-align: left;
+    width: 210px;
+}
+
+.container-footer {
+    background-color: rgb(255, 235, 116);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.copyright, .trait-text, .main-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.content-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom:10px;
+}
+.ContainerTitles, .title {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:612px;
+}
+.choice{
+    width:300px;
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:space-around;
+}
+.ContainerCellProducts{
+    padding-bottom:35px;
+    padding-top:35px;
+}
+.ContainterCards {
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    max-width:1300px;
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    box-shadow: black 0px 3px 2px 0px;
+    margin: 0px 10px 35px 10px;
+    transition: box-shadow 0.5s;
+}
+    .Card:hover {
+        box-shadow: rgb(255, 235, 116) 0px 4px 2px 1px;
+    }
+
+img.CardImage {
+    width: 150px;
+    height: 190px;
+}
+.button-link2 {
+    width: 70px;
+    background-color: rgba(0,0,0, 0.80);
+    border-radius: 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(0,0,0, 0.50) 0px 4px 2px 0px;
+    margin: 7px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 235, 116);
+}
+    .button-link2:hover {
+        box-shadow: rgba(0,0,0, 0.50) 0px 4px 2px 1px;
+        color: rgb(255, 238, 171);
+    }
+#Fruit, #Vegetable {
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
