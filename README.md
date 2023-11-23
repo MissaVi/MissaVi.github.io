@@ -1,2 +1,214 @@
 # MissaVi.github.io
-test
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="ANSI" />
+    <title>flex-box site</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <header>
+        <div class="TopMenuNavigation">
+            <div class="logotype"><img class="logo" src="Images/logotype.png" /></div>
+            <div class="HeaderMenuUl">
+                <ul class="TopMenuNavigationUl">
+                    <li class="TopMenuNavigationLi">
+                        <a class="TopMenuNavigationLink" href="#">Главная</a>
+                    </li>
+                    <li class="TopMenuNavigationLi">
+                        <a class="TopMenuNavigationLink" href="#">О компании</a>
+                    </li>
+                    <li class="TopMenuNavigationLi">
+                        <a class="TopMenuNavigationLink" href="#">Каталог</a>
+                    </li>
+                    <li class="TopMenuNavigationLi">
+                        <a class="TopMenuNavigationLink" href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="TopMenuNavigationLi">
+                        <a class="TopMenuNavigationLink" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="BannerProducts">
+            <div class="Products">
+                <div class="Products-text">
+                    <h1 class="main-title">интернет-магазин</h1>
+                    <h2 class="main-title1">Фруктов и овощей</h2>
+                    <a class="button-link" onclick="window.scrollTo({top: 1240, behavior: 'smooth'});">Перейти в каталог</a>
+                </div>
+            </div>
+        </section>
+        <section class="BannerMainInformation">
+            <div class="Traits">
+                <aside class="left-aside">
+                    <div class="left-aside-container">
+                        <div class="container-for-move">
+                            <div class="trait-left">
+                                <div class="text">
+                                    <h3 class="content-title">Огромный выбор</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                            <div class="trait-left">
+                                <div class="text">
+                                    <h3 class="content-title">Гарантия качества</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                            <div class="trait-left">
+                                <div class="text">
+                                    <h3 class="content-title">Быстрая доставка</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="right-aside">
+                    <div class="right-aside-container">
+                        <div class="container-for-move">
+                            <div class="trait-right">
+                                <div class="text">
+                                    <h3 class="content-title">Огромный выбор</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                            <div class="trait-right">
+                                <div class="text">
+                                    <h3 class="content-title">Гарантия качества</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                            <div class="trait-right">
+                                <div class="text">
+                                    <h3 class="content-title">Быстрая доставка</h3>
+                                    <p class="trait-text">Для наших клиентов мы предлогаем низкие цены, большой ассортимент, удобные виды доставок</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <article class="center-content">
+                    <section class="center-content-container">
+                        <div class="main-information">
+                            <h1 class="main-title2">О нашем магазине</h1>
+                            <h2 class="main-title">Напрямую от производителя</h2>
+                            <h2 class="main-title2">Все продукты проходят тщательную проверку</h2>
+                        </div>
+                        <div class="main-information-image">
+                            <img class="poster-fruits" src="Images/poster.jpg" />
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </section>
+        <section class="CellProducts">
+            <div class="ContainerTitles">
+                <div class="title">
+                    <h2 class="main-title">Каталог Продуктов</h2>
+                    <div class="choice">
+                        <h1 class="main-title2" id="Fruit" onclick="">Фрукты</h1> <h1 class="main-title2" id="Vegetable">Овощи</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="ContainerCellProducts">
+                <div class="ContainterCards">
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlepineapple">Ананас</h3>
+                        <img class="CardImage" id="pineapple" src="Images/pineapple.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titleorange">Апельсин</h3>
+                        <img class="CardImage" id="orange" src="Images/orange.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlewatermelon">Арбуз</h3>
+                        <img class="CardImage" id="watermelon" src="Images/watermelon.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlebanana">Банан</h3>
+                        <img class="CardImage" id="banana" src="Images/banana.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlegrape">Виноград</h3>
+                        <img class="CardImage" id="grape" src="Images/grape.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlecherry">Вишня</h3>
+                        <img class="CardImage" id="cherry" src="Images/cherry.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlepomegranate">Гранат</h3>
+                        <img class="CardImage" id="pomegranate" src="Images/pomegranate.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlegrapefruit">Грейпфрукт</h3>
+                        <img class="CardImage" id="grapefruit" src="Images/grapefruit.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlepear">Груша</h3>
+                        <img class="CardImage" id="pear" src="Images/pear.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlemelon">Дыня</h3>
+                        <img class="CardImage" id="melon" src="Images/melon.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlekiwi">Киви</h3>
+                        <img class="CardImage" id="kiwi" src="Images/kiwi.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlecocoon">Кокона</h3>
+                        <img class="CardImage" id="cocoon" src="Images/cocoon.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlecoconut">Кокос</h3>
+                        <img class="CardImage" id="coconut" src="Images/coconut.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlelime">Лайм</h3>
+                        <img class="CardImage" id="lime" src="Images/lime.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                    <div class="Card">
+                        <h3 class="content-title" id="Titlelemon">Лимон</h3>
+                        <img class="CardImage" id="lemon" src="Images/lemon.jpg" />
+                        <a class="button-link2" href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="copyright">Copyright 2019 ALL right reserved By...</div>
+            <div class="contacts">
+                <div class="icons">
+                    <a class="icon" href="#"><img class="socIco" src="Images/telegram.png" /></a>
+                    <a class="icon" href="#"><img class="socIco" src="Images/youtube.png" /></a>
+                    <a class="icon" href="#"><img class="socIco" src="Images/vk.png" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+</html>
