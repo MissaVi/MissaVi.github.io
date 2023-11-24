@@ -1,0 +1,126 @@
+@media only screen and (max-width: 868px) {
+    .TopMenuNavigationLink {
+        font-size: 34px;
+    }
+
+    .TopMenuNavigationLi {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .HeaderMenuUl, .TopMenuNavigationUl {
+        width: 690px;
+    }
+
+    .TopMenuNavigationUl {
+        align-content: space-around;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .logotype {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .TopMenuNavigationLink {
+        font-size: 34px;
+    }
+    .TopMenuNavigationLi {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .HeaderMenuUl, .TopMenuNavigationUl{
+        width:600px;
+    }
+    .TopMenuNavigationUl {
+        align-content: space-around;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .logotype {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Products{
+        display:flex;
+        align-items:center;
+        background-size: cover;
+    }
+    .Products-text {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 450px;
+        position: unset;
+        left: auto;
+        top: auto;
+    }
+    .button-link {
+        padding: 20px 50px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .HeaderMenuUl, .TopMenuNavigationUl {
+        width: 400px;
+        height:200px;
+    }
+    .TopMenuNavigationLink {
+        font-size: 28px;
+    }
+    .TopMenuNavigationUl {
+        flex-direction:column;
+        column-count:2;
+        justify-content: center;
+        align-content: space-between;
+        align-items:center;
+    }
+    .container-for-move, .text, .left-aside-container, .right-aside-container, .trait-text, .content-title {
+        width: 170px;
+        font-size:17px;
+    }
+    .title{
+        height:150px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    h2.main-title{
+        font-size:38px;
+    }
+    .trait-right, .trait-left {
+        text-align: center;
+    }
+    .trait-left, .trait-right{
+        width:150px;
+    }
+    .choice{
+        height:60px;
+        width:270px;
+    }
+    #Fruit, #Vegetable {
+    display:flex;
+    align-items:center;
+    font-size:28px;
+    }
+    h2.main-title {
+        font-size: 28px;
+    }
+    .main-title2 {
+        font-size: 18px;
+    }
+    .content-title{
+        text-align:center;
+        font-size:28px;
+    }
+    .ContainterCards{
+        justify-content: space-around;
+    }
+    .Traits, .right-aside, .left-aside, .right-aside-container, .left-aside-container, .container-for-move {
+        height: 700px;
+    }
+}
